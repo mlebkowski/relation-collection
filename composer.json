@@ -1,0 +1,27 @@
+{
+  "name": "nassau/relation-collection",
+  "description": "Doctrine Collection automatically sets the owner when adding an item",
+  "require": {
+    "doctrine/orm": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nassau\\RelationCollection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nassau\\RelationCollection\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maciej Łebkowski",
+      "email": "m.lebkowski@gmail.com"
+    }
+  ]
+}
